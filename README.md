@@ -1,1 +1,1 @@
-# Exércicio plataforma DankiCODE
+# Exercício plataforma DankiCODE
