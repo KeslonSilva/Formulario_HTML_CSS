@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Teste Formulário </title>
+	<link href="style.css" type="text/css" rel="stylesheet"/>		
+</head>
+<body>
+
+	<form> <!-- Começo Formulário -->
+		<fieldset> <!-- Grupo de Campos -->
+			<legend> Meu formulário </legend> <!-- Titulo do formulario -->
+			<div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+			<div><input type="text" name="email" placeholder="Digite o seu e-mail"></div>
+			<div>
+				<select name="Lista">
+					<option disable selected>Qual a sua cidade ? </option>
+					<option value="Barreiro">Barreiro</option>
+					<option value="Belo Horizonte">Belo Horizonte</option>
+					<option value="Contagem">Contagem</option>
+					<option value="Ibirité">Ibirité</option>
+					<option value="Sabará">Sabará</option>
+				</select>
+			</div>
+			<h2> Qual a sua IDADE ? </h2>
+			<div class="input">
+				<div>
+					<input type="radio" name="idade" value="18 a 25" /> <span>18 a 25 </span>  
+				</div>
+				<div>
+					<input type="radio" name="idade" value="26 a 30" /> <span>26 a 30 </span>  
+				</div>
+				<div>
+					<input type="radio" name="idade" value="31 a 35" /> <span>31 a 35 </span>  
+				</div>
+				<div>
+					<input type="radio" name="idade" value="36 a 40" /> <span>36 a 40 </span>  
+				</div> 
+			</div>
+			<h2> O que você GOSTA DE COMER ? </h2>
+			<div class="input">
+				<div>
+					<input type="checkbox" name="comida[]" value="Batata Frita" /> <span> Batata Frita</span>  
+				</div>
+				<div>
+					<input type="checkbox" name="comida[]" value="Carne de Boi Assada" /> <span> Carne de Boi Assada</span>  
+				</div>
+				<div>
+					<input type="checkbox" name="comida[]" value="Lasanha" /> <span> Lasanha</span>  
+				</div>
+				<div>
+					<input type="checkbox" name="comida[]" value="Pizza" /> <span> Pizza </span>  
+				</div> 
+			</div>
+				<div>
+					<textarea placeholder="Possui alguma observação ?" name="obs"></textarea>
+				</div>
+				<div>
+						<input type="submit" name="acao" value="ENVIAR!">
+				</div>
+		</fieldset>
+	</form>
+	
+<body>
+<html>
